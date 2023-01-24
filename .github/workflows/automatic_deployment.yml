@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@v3
     - name: Upload Files
       id: upload
-      uses: Creepios/sftp-action@v1.0.3
+      uses: Creepios/sftp-action@v1.0.4
       with:
         host: ${{ secrets.BGASTUDIO_SERVER }}
         port: 22
