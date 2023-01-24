@@ -18,5 +18,5 @@ jobs:
         port: 22
         username: ${{ secrets.BGASTUDIO_USERNAME }}
         password: ${{ secrets.BGASTUDIO_PASSWORD }}
-        localPath: '/*'
+        localPath: 'C/Users/jonat/OneDrive/Documents/Projects/BGAProjects/ReversiTutorial/*'
         remotePath: '/reversijgptutorial'
