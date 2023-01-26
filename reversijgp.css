@@ -1,15 +1,15 @@
 /**
  *------
  * BGA framework: © Gregory Isabelli <gisabelli@boardgamearena.com> & Emmanuel Colin <ecolin@boardgamearena.com>
- * reversijgptutorial implementation : © <Your name here> <Your email address here>
+ * reversijgp implementation : © <Your name here> <Your email address here>
  *
  * This code has been produced on the BGA studio platform for use on http://boardgamearena.com.
  * See http://en.boardgamearena.com/#!doc/Studio for more information.
  * -----
  *
- * reversijgptutorial.css
+ * reversijgp.css
  *
- * reversijgptutorial stylesheet
+ * reversijgp stylesheet
  *
  */
 
@@ -17,8 +17,8 @@
     This is the CSS stylesheet of your game User Interface.
     
     Styles defined on this file will be applied to the HTML elements you define in your
-    HTML template (reversijgptutorial_reversijgptutorial.tpl), and to HTML elements you create dynamically
-    (in reversijgptutorial.js).
+    HTML template (reversijgp_reversijgp.tpl), and to HTML elements you create dynamically
+    (in reversijgp.js).
     
     Usually, you are using CSS to:
     
@@ -67,11 +67,6 @@
     }
 */
 
-#board {
-    width: 536px;
-    height: 528px;
-    background-image: url('img/board.jpg');
- }
 
 
 

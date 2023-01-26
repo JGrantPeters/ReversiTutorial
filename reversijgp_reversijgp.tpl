@@ -3,13 +3,13 @@
 <!-- 
 --------
 -- BGA framework: © Gregory Isabelli <gisabelli@boardgamearena.com> & Emmanuel Colin <ecolin@boardgamearena.com>
--- reversijgptutorial implementation : © <Your name here> <Your email address here>
+-- reversijgp implementation : © <Your name here> <Your email address here>
 -- 
 -- This code has been produced on the BGA studio platform for use on http://boardgamearena.com.
 -- See http://en.boardgamearena.com/#!doc/Studio for more information.
 -------
 
-    reversijgptutorial_reversijgptutorial.tpl
+    reversijgp_reversijgp.tpl
     
     This is the HTML template of your game.
     
@@ -25,8 +25,9 @@
     Please REMOVE this comment before publishing your game on BGA
 -->
 
-<div id="board">
-</div>
+
+This is your game interface. You can edit this HTML in your ".tpl" file.
+
 
 <script type="text/javascript">
 

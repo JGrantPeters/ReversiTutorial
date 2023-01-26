@@ -2,27 +2,27 @@
 /**
  *------
  * BGA framework: © Gregory Isabelli <gisabelli@boardgamearena.com> & Emmanuel Colin <ecolin@boardgamearena.com>
- * reversijgptutorial implementation : © <Your name here> <Your email address here>
+ * reversijgp implementation : © <Your name here> <Your email address here>
  *
  * This code has been produced on the BGA studio platform for use on https://boardgamearena.com.
  * See http://en.doc.boardgamearena.com/Studio for more information.
  * -----
  * 
- * reversijgptutorial.action.php
+ * reversijgp.action.php
  *
- * reversijgptutorial main action entry point
+ * reversijgp main action entry point
  *
  *
  * In this file, you are describing all the methods that can be called from your
  * user interface logic (javascript).
  *       
  * If you define a method "myAction" here, then you can call it from your javascript code with:
- * this.ajaxcall( "/reversijgptutorial/reversijgptutorial/myAction.html", ...)
+ * this.ajaxcall( "/reversijgp/reversijgp/myAction.html", ...)
  *
  */
   
   
-  class action_reversijgptutorial extends APP_GameAction
+  class action_reversijgp extends APP_GameAction
   { 
     // Constructor: please do not modify
    	public function __default()
@@ -34,7 +34,7 @@
   	    }
   	    else
   	    {
-            $this->view = "reversijgptutorial_reversijgptutorial";
+            $this->view = "reversijgp_reversijgp";
             self::trace( "Complete reinitialization of board game" );
       }
   	} 

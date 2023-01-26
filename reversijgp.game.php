@@ -2,13 +2,13 @@
  /**
   *------
   * BGA framework: © Gregory Isabelli <gisabelli@boardgamearena.com> & Emmanuel Colin <ecolin@boardgamearena.com>
-  * reversijgptutorial implementation : © <Your name here> <Your email address here>
+  * reversijgp implementation : © <Your name here> <Your email address here>
   * 
   * This code has been produced on the BGA studio platform for use on http://boardgamearena.com.
   * See http://en.boardgamearena.com/#!doc/Studio for more information.
   * -----
   * 
-  * reversijgptutorial.game.php
+  * reversijgp.game.php
   *
   * This is the main file for your game logic.
   *
@@ -20,7 +20,7 @@
 require_once( APP_GAMEMODULE_PATH.'module/table/table.game.php' );
 
 
-class reversijgptutorial extends Table
+class reversijgp extends Table
 {
 	function __construct( )
 	{
@@ -45,7 +45,7 @@ class reversijgptutorial extends Table
     protected function getGameName( )
     {
 		// Used for translations and stuff. Please do not modify.
-        return "reversijgptutorial";
+        return "reversijgp";
     }	
 
     /*
@@ -155,7 +155,7 @@ class reversijgptutorial extends Table
 
     /*
         Each time a player is doing some game action, one of the methods below is called.
-        (note: each method below must match an input method in reversijgptutorial.action.php)
+        (note: each method below must match an input method in reversijgp.action.php)
     */
 
     /*

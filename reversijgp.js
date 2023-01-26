@@ -1,15 +1,15 @@
 /**
  *------
  * BGA framework: © Gregory Isabelli <gisabelli@boardgamearena.com> & Emmanuel Colin <ecolin@boardgamearena.com>
- * reversijgptutorial implementation : © <Your name here> <Your email address here>
+ * reversijgp implementation : © <Your name here> <Your email address here>
  *
  * This code has been produced on the BGA studio platform for use on http://boardgamearena.com.
  * See http://en.boardgamearena.com/#!doc/Studio for more information.
  * -----
  *
- * reversijgptutorial.js
+ * reversijgp.js
  *
- * reversijgptutorial user interface script
+ * reversijgp user interface script
  * 
  * In this file, you are describing the logic of your user interface, in Javascript language.
  *
@@ -21,9 +21,9 @@ define([
     "ebg/counter"
 ],
 function (dojo, declare) {
-    return declare("bgagame.reversijgptutorial", ebg.core.gamegui, {
+    return declare("bgagame.reversijgp", ebg.core.gamegui, {
         constructor: function(){
-            console.log('reversijgptutorial constructor');
+            console.log('reversijgp constructor');
               
             // Here, you can init the global variables of your user interface
             // Example:
@@ -186,7 +186,7 @@ function (dojo, declare) {
             if( ! this.checkAction( 'myAction' ) )
             {   return; }
 
-            this.ajaxcall( "/reversijgptutorial/reversijgptutorial/myAction.html", { 
+            this.ajaxcall( "/reversijgp/reversijgp/myAction.html", { 
                                                                     lock: true, 
                                                                     myArgument1: arg1, 
                                                                     myArgument2: arg2,
@@ -217,7 +217,7 @@ function (dojo, declare) {
             In this method, you associate each of your game notifications with your local method to handle it.
             
             Note: game notification names correspond to "notifyAllPlayers" and "notifyPlayer" calls in
-                  your reversijgptutorial.game.php file.
+                  your reversijgp.game.php file.
         
         */
         setupNotifications: function()
